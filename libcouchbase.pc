@@ -1,0 +1,9 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+Name: libcouchbase
+Description: libcouchbase
+Version: 1.0.1
+Cflags: -I${includedir}
+Libs: -L${libdir}

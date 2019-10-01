@@ -1,0 +1,6 @@
+module Libcouchbase [system] {
+  header "/usr/local/include/libcouchbase/couchbase.h"
+  header "/usr/local/include/libcouchbase/n1ql.h"
+  link "couchbase"
+  export *
+}
